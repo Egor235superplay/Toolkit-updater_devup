@@ -21,15 +21,19 @@
 
 ```bash
 sudo apt update && sudo apt install build-essential g++ make curl -y
+```
 
 ## ??? Шаг 2: Создание папки проекта
 
 Используй команды:
+```bash
 mkdir -p ~/Desktop/visualizer_project
 cd ~/Desktop/visualizer_project
-
+```
 ## ??? Шаг 3: Распаковка и запуск
 
 Для запуска используй команду:
+```bash
 make
 ./visualizer
+```
