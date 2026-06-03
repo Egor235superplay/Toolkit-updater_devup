@@ -1,0 +1,9 @@
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall
+TARGET = visualizer
+all: $(TARGET)
+$(TARGET): main.cpp
+	$(CXX) $(CXXFLAGS) main.cpp -o $(TARGET)
+	chmod +x scanner.sh
+clean:
+	rm -f $(TARGET)
